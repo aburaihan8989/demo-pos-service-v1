@@ -87,12 +87,12 @@
                                                 </td>
                                                 <td>
                                                     {{-- {{ $product->category }} --}}
-                                                    @if ($product->category == 'retail')
-                                                        Retail
-                                                    @elseif ($product->category == 'sembako')
-                                                        Sembako
-                                                    @elseif ($product->category == 'kelontong')
-                                                        Kelontong
+                                                    @if ($product->category == 'layanan')
+                                                        Layanan
+                                                    @elseif ($product->category == 'produk')
+                                                        Produk
+                                                    @elseif ($product->category == 'other')
+                                                        Other
                                                     @endif
                                                 </td>
                                                 <td>
